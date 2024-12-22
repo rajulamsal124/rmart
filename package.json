@@ -1,0 +1,14 @@
+{
+  "name": "rmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend:start": "pnpm -r --filter @rmart/backend run start",
+    "frontend:start": "pnpm -r --filter @rmart/frontend run start",
+    "start": "pnpm -r run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
